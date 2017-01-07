@@ -20,3 +20,18 @@ var aritGeo = function(list){
                    is_geo = false;
                }
            }
+
+     //decision based on the above results    
+           if(is_arr){
+               return "Arithmetic";
+           }else if(is_geo){
+               return "Geometric";
+           }else{
+               return -1;
+           }
+       } 
+       else{
+           return 0;
+       }
+   
+};
